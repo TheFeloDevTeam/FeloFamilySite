@@ -4,9 +4,8 @@
 
   - [Home](/)
   - [Guide](guide.md)
-  - [test]
-  - [test]
-  - [test]
-  - [test]
-  - [test]
-  
+  - [test](guide.md)
+  - [test](guide.md)
+  - [test](guide.md)
+  - [test](guide.md)
+  - [test](guide.md)
