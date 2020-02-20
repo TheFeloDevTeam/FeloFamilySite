@@ -16,9 +16,3 @@
 
 ```markdown
 [remoteMarkdownUrl](https://raw.githubusercontent.com/docsifyjs/docsify/develop/docs/README.md)
-
-
-```mermaid
-sequenceDiagram
-  A-->B: Works!
-```
