@@ -4,7 +4,7 @@
 
   - [Home](/)
   - [Guide](guide.md)
-  - [new page](new_page.md)
+  - [draw](draw.html)
   - [test](guide.md)
   - [test](guide.md)
   - [test](guide.md)
