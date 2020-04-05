@@ -25,12 +25,34 @@
       placeholder: 'Type to search 🔍',
       noData: 'No Results! 😞',
     }
+
+    formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      plugins: [
+        function (hook, vm) {
+          hook.beforeEach(function (html) {
+            if (/githubusercontent\.com/.test(vm.route.file)) {
+              url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/master/, '/blob/master')
+            } else {
+              url = 'https://github.com/TheFeloDevTeam/FeloFamilySite/blob/master/docs/' + vm.route.file
+            }
+            var editHtml = '[:memo: Edit Document](' + url + ')\n'
+
+            return editHtml
+              + html
+              + '\n\n----\n\n'
+              + 'Powered by docsify'
+          })
+        },
+      ]
   };
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 <script src="//unpkg.com/docsify-remote-markdown/dist/docsify-remote-markdown.min.js"></script>
 <script src="https://www.draw.io/js/viewer.min.js"></script>
+
 <script>
   if (typeof navigator.serviceWorker !== 'undefined') {
     navigator.serviceWorker.register('sw.js')
