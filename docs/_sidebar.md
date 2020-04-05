@@ -5,3 +5,4 @@
   - [Lasagnes bolognaise](Lasagnes-bolognaise.md)
   - [Lasagnes vegetariennes](Lasagnes-vegetariennes.md)
   - [Pâte à pizza](Pate-a-pizza.md)
+- [Glossaire](_glossary.md)
