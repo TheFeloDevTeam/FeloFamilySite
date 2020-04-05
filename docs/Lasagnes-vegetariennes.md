@@ -7,7 +7,7 @@
 - Sel
 - Basilic frais
 - Herbes de Provence
-- Lasagnes
+- Pâtes type "Lasagnes"
 - 400 g de gruyère râpé
 - 200 g de coulis de tomate
 - 4 oignons de taille moyenne
