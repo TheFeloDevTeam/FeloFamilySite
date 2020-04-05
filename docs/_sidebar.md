@@ -1,11 +1,4 @@
 <!-- docs/_sidebar.md -->
-
-- Getting started
-
-  - [Home](/)
-  - [Guide](guide.md)
-  - [draw](https://raw.githubusercontent.com/TheFeloDevTeam/TestDocsify/master/docs/new_page.html)
-  - [test](guide.md)
-  - [test](guide.md)
-  - [test](guide.md)
-  - [test](guide.md)
+ - [Home](/)
+ - Recettes
+  - [Lasagnes](https://raw.githubusercontent.com/TheFeloDevTeam/TheBlogOfFeloFamily/master/_posts/2020-03-22-Lasagnes-v%C3%A9g%C3%A9tariennes.md)
