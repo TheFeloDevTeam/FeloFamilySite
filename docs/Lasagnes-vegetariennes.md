@@ -1,7 +1,3 @@
----
-title: Lasagnes végétariennes
-subtitle: https://www.marmiton.org/recettes/recette_lasagnes-vegetariennes-facile_10527.aspx
----
 
 ## Ingrédients
 
@@ -27,3 +23,7 @@ subtitle: https://www.marmiton.org/recettes/recette_lasagnes-vegetariennes-facil
 1. Une fois le mélange prêt, procédez à l'empilement dans un grand plat : couche de lasagnes, 1 couche de préparation, 1 couche de béchamel, 1 couche de gruyère, et ainsi de suite (en rajoutant un peu de sel à chaque fois), en mettant beaucoup de gruyère sur la dernière couche.
 1. Faites cuire à four chaud (thermostat 7-200°C), 35 minutes
 1. Servez, lorsque c'est bien gratiné.
+
+## Références
+
+https://www.marmiton.org/recettes/recette_lasagnes-vegetariennes-facile_10527.aspx

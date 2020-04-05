@@ -1,14 +1,3 @@
----
-title: Lasagnes à la bolognaise
-subtitle: Recette de Jean-Pierre Koffe
----
-
-<link rel="stylesheet" href="https://raw.githubusercontent.com/markdowncss/splendor/master/css/splendor.css">
-
-<script src="https://gist.github.com/christianfelicite/e6fe830d808c701c3b588eb00a6c2928.js?file=bechamel.md"></script>
-
-<script src="https://gist.github.com/christianfelicite/e6fe830d808c701c3b588eb00a6c2928.js?file=bolognaise.md"></script>
-
 
 ## Ingrédients
 250 g de feuilles de lasagnes du commerce 
@@ -43,3 +32,7 @@ four au bain-marie, en prenant soin de les
 Ustensiles : utiliser un plat d' 
 et 4 ou 5 centimètres de haut. 
 environ 24 centimètres de long, 18 de large 
+
+## Références
+
+Jean-Pierre Koffe

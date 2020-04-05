@@ -1,7 +1,3 @@
----
-title: Lentilles coraille
-subtitle: x
----
 
 # heading
 

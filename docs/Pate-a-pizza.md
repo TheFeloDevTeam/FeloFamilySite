@@ -1,6 +1,3 @@
----
-title: Pate à pizza
----
 
 ## Ingrédients
 ### Pour une pizza de 35/40 cm de diamètre
