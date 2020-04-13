@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
-- [Recettes](Recettes/README.md)
-- [Dev](Dev/README.md)
-- [CAP](CAP/README.md)
+- [Recettes](Recettes/)
+- [Dev](Dev/)
+- [CAP](CAP/)
 - [Glossaire](_glossary.md)
