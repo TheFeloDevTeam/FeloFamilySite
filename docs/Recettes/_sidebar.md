@@ -1,8 +1,9 @@
 <!-- docs/_sidebar.md -->
+- [Home](/)
 - Entrées
 - Plats 
-  - [Carbonara traditionnelle](Carbonara-traditionnelle.md)
-  - [Lasagnes bolognaise](Lasagnes-bolognaise.md)
-  - [Lasagnes vegetariennes](Lasagnes-vegetariennes.md)
-  - [Pâte à pizza](Pate-a-pizza.md)
+  - [Carbonara traditionnelle](/Recettes/Carbonara-traditionnelle.md)
+  - [Lasagnes bolognaise](/Recettes/Lasagnes-bolognaise.md)
+  - [Lasagnes vegetariennes](/Recettes/Lasagnes-vegetariennes.md)
+  - [Pâte à pizza](/Recettes/Pate-a-pizza.md)
 - Desserts

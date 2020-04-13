@@ -1,2 +1,3 @@
 <!-- docs/_sidebar.md -->
-- [Test](CommentInclureUnFichierHtml.md)]
+- [Home](/)
+- [Comment inclure un fichier HTML dans un fichier HTML](Dev\CommentInclureFichierHTMLDansFichierHTML.md)

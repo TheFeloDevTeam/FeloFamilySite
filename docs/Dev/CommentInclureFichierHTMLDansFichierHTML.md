@@ -1,8 +1,7 @@
-## Comment ajouter un fichier HTML dans un fichier HTML
 
 There are some methods like Server Side Includes which allow us to include other HTML files into a web page on a webserver like
 1
-	
+    
 <!-- #include virtual="./common.html" -->
 
 But this technique require server side setting and may be not supported by some web hosting.
@@ -10,7 +9,7 @@ But this technique require server side setting and may be not supported by some 
 Another way to include .html in a web page is using jQuery insertion.
 
 ### Create the index.html as follow.
-	
+    
 <!DOCTYPE html>
 <html>
   <head>
@@ -29,7 +28,7 @@ Another way to include .html in a web page is using jQuery insertion.
  
 ### Create the header.html which will be inserted in the #header div above.
 
-	
+    
 <header>
   <h1></h1>
   <nav>
@@ -44,7 +43,7 @@ Another way to include .html in a web page is using jQuery insertion.
  
 
 ### Create the script.js
-	
+    
 $(document).ready(function(){ 
   $.get("header.html", function(data) {
     $("#header").html(data);
