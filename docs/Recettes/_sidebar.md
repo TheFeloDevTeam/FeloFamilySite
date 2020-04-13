@@ -7,4 +7,3 @@
     - [Lasagnes vegetariennes](Lasagnes-vegetariennes.md)
     - [Pâte à pizza](Pate-a-pizza.md)
   - Desserts
-- [Glossaire](_glossary.md)
