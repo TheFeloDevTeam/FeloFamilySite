@@ -1,5 +1,5 @@
 <!-- docs/_sidebar.md -->
-- [Home](/)
+- [Home](./)
 - [Recettes](Recettes/)
 - [Dev](Dev/)
 - Sport
