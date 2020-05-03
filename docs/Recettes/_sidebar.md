@@ -7,5 +7,5 @@
   - [Lasagnes vegetariennes](/Recettes/Lasagnes-vegetariennes.md)
   - [Pâte à pizza](/Recettes/Pate-a-pizza.md)
 - Desserts
-- [Sauces](/Recettes/Sauces/_sidebar.md)
-- [Ingrédients](/Recettes/Ingredients/_sidebar.md)
+- [Sauces](/Recettes/Sauces/)
+- [Ingrédients](/Recettes/Ingredients/)

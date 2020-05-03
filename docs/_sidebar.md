@@ -2,7 +2,7 @@
 - [Home](/)
 - [Dev](Dev/)
 - Alimentation
-  - [Nutrition](Nutrition/_sidebar.md)
+  - [Nutrition](Nutrition/)
   - [Recettes](Recettes/)
 - Sport
   - [CAP](Sport_CAP/)
