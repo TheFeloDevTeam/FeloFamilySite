@@ -1,5 +1,5 @@
 <!-- docs/_sidebar.md -->
-- [Home](/)
+- [Recettes](/Recettes/)
 - [Carbonara traditionnelle](/Recettes/Plats/Carbonara-traditionnelle.md)
 - [Lasagnes bolognaise](/Recettes/Plats/Lasagnes-bolognaise.md)
 - [Lasagnes vegetariennes](/Recettes/Plats/Lasagnes-vegetariennes.md)
