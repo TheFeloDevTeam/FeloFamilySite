@@ -1,7 +1,9 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
-- [Recettes](Recettes/)
 - [Dev](Dev/)
+- Alimentation
+  - [Nutrition](Nutrition/_sidebar.md)
+  - [Recettes](Recettes/)
 - Sport
   - [CAP](Sport_CAP/)
   - [Nat](Sport_Nat/)
