@@ -1,0 +1,7 @@
+<!-- docs/_sidebar.md -->
+- Aliments
+  - [Acides gras](/docs/Nutrition/acides_gras.md)
+- Bonnes pratiques
+  - [Détecter la faim](/Nutrition/detecter_faim.md)
+- Autres
+  - [Index glycémique](/Nutrition/index_glycemique.md)
