@@ -1,4 +1,5 @@
 <!-- docs/_sidebar.md -->
+- [Home](/)
 - [Recettes](/Recettes/)
 - [Ingrédients lasagnes](/Recettes/Ingredients/ingredients_lasagnes.md)
 - [Ingrédients béchamel](/Recettes/Ingredients/ingredients_bechamel.md)
