@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
 - Aliments
-  - [Acides gras](/docs/Nutrition/acides_gras.md)
+  - [Acides gras](/Nutrition/acides_gras.md)
 - Bonnes pratiques
   - [Détecter la faim](/Nutrition/detecter_faim.md)
 - Autres
