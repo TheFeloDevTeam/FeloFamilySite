@@ -1,5 +1,6 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
+- [Nutrition](/Nutrition/)
 - Aliments
   - [Acides gras](/Nutrition/acides_gras.md)
 - Bonnes pratiques
