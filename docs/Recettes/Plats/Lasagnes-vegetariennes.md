@@ -1,17 +1,7 @@
 
 ## Ingrédients
 
-- 6 tomates fraîches (ou pelées en boîte, à défaut)
-- 4 courgettes
-- Poivre
-- Sel
-- Basilic frais
-- Herbes de Provence
-- Pâtes type "Lasagnes"
-- 400 g de gruyère râpé
-- 200 g de coulis de tomate
-- 4 oignons de taille moyenne
-- 50 cl de béchamel ou (si on est pressé) de crème fraîche épaisse ou semi-épaisse
+[Filename](../Ingredients/ingredients_lasagnes_vege.md ':include')
 
 ## Préparation
 
