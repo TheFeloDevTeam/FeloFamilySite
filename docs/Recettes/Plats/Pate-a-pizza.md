@@ -1,6 +1,8 @@
 
 ## Ingrédients
 
+### Ingtédients pour une pizza de 35/40 cm de diamètre
+
 [Filename](../../Recettes/Ingredients/ingredients_pate_pizza.md ':include')
 
 ### Ingrédients pour la garniture

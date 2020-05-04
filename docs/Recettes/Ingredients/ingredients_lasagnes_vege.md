@@ -12,4 +12,6 @@
 - [ ] 200 g de coulis de tomate
 - [ ] 4 oignons de taille moyenne
 
+### Ingrédients béchamel
+
 [Filename](../../Recettes/Ingredients/ingredients_bechamel.md ':include')
