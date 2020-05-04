@@ -9,4 +9,5 @@
 - [ ] 400 g de gruyère râpé
 - [ ] 200 g de coulis de tomate
 - [ ] 4 oignons de taille moyenne
-- [ ] 50 cl de béchamel ou (si on est pressé) de crème fraîche épaisse ou semi-épaisse
+
+[Filename](../Ingredients/ingredients_bechamel.md ':include')
