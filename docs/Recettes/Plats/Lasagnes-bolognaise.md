@@ -1,7 +1,7 @@
 
 ## Ingrédients
 
-[Filename](../Ingredients/ingredients_lasagnes_bolognaise.md ':include')
+[Filename](/Ingredients/ingredients_lasagnes_bolognaise.md ':include')
 
 ## Préparation
 
