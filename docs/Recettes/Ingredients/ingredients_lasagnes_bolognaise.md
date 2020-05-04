@@ -6,7 +6,8 @@
 
 ### Ingrédients béchamel
 
-[Filename](https://raw.githubusercontent.com/TheFeloDevTeam/FeloFamilySite/master/docs/Recettes/Ingredients/ingredients_bechamel.md ':include')
+[remoteMarkdownUrl](https://raw.githubusercontent.com/TheFeloDevTeam/FeloFamilySite/master/docs/Recettes/Ingredients/ingredients_bechamel.md)
+
 
 ### Ingrédients sauce bolognaise
 
