@@ -1,7 +1,7 @@
 
 ## Ingrédients
 
-[Filename](/Ingredients/ingredients_carbo.md ':include')
+[Filename](/Recettes/Ingredients/ingredients_carbo.md ':include')
 
 ## Préparation
 

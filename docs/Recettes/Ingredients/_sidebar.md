@@ -5,3 +5,4 @@
 - [Ingrédients lasagnes végétariennes](/Recettes/Ingredients/ingredients_lasagnes_vege.md)
 - [Ingrédients béchamel](/Recettes/Ingredients/ingredients_bechamel.md)
 - [Ingrédients bolognaise](/Recettes/Ingredients/ingredients_bolognaise.md)
+- [Ingrédients corbonara](/Recettes/Ingredients/ingredients_carbo.md)
