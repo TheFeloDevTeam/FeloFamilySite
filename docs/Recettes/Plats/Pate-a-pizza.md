@@ -1,15 +1,9 @@
 
 ## Ingrédients
 
-### Pour une pizza de 35/40 cm de diamètre
+[Filename](../../Recettes/Ingredients/ingredients_pate_pizza.md ':include')
 
-- 250g de farine T45
-- 140g d'eau
-- 10g de levure fraîche
-- 3 cuillères à soupe d'huile d'olive
-- 7g de sel
-
-### Pour la garniture
+### Ingrédients pour la garniture
 - Sauce tomate
 - Mozarella à découper
 - Fromage à pizza

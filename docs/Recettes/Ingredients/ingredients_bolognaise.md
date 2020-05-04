@@ -1,4 +1,6 @@
 
+### Ingrédients sauce bolognaise
+
 - [ ] 500 g de collier de bœuf haché (grille moyenne)
 - [ ] 1 oignon 
 - [ ] 10 cm d'une branche de céleri 
