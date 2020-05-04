@@ -11,4 +11,4 @@
 
 ### Ingrédients sauce bolognaise
 
-[Filename](../../Recettes/Ingredients/ingredients_bolognaise.md ':include')
+[remoteMarkdownUrl](https://raw.githubusercontent.com/TheFeloDevTeam/FeloFamilySite/master/docs/Recettes/Ingredients/ingredients_bolognaise.md)
