@@ -4,8 +4,5 @@
 - Alimentation
   - [Nutrition](Nutrition/)
   - [Recettes](Recettes/)
-- Sport
-  - [CAP](Sport_CAP/)
-  - [Nat](Sport_Nat/)
-  - [Vélo](Sport_Velo/)
+- [Sport](/sport/)
 - [Glossaire](_glossary.md)
