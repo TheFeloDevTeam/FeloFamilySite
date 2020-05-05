@@ -1,7 +1,7 @@
 
-## Ingrédients sauce carbonara
+## Ingrédients
 
-[Filename](../../Recettes/Ingredients/ingredients_carbo.md ':include')
+[Liste des ingrédients de la sauce](/Recettes/Ingredients/ingredients_carbo.md)
 
 ## Préparation
 
