@@ -4,5 +4,5 @@
 - Alimentation
   - [Nutrition](Nutrition/)
   - [Recettes](Recettes/)
-- [Sport](/sport/)
+- [Sport](/Sport/)
 - [Glossaire](_glossary.md)
