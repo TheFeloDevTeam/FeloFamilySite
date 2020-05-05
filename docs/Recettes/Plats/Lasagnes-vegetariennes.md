@@ -1,7 +1,7 @@
 
 ## Ingrédients
 
-[Filename](../../Recettes/Ingredients/ingredients_lasagnes_vege.md ':include')
+[Liste des ingrédients](../../Recettes/Ingredients/ingredients_lasagnes_vege.md)
 
 ## Préparation
 

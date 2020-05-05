@@ -1,7 +1,7 @@
 
 ## Ingrédients
 
-[remoteMarkdownUrl](https://raw.githubusercontent.com/TheFeloDevTeam/FeloFamilySite/master/docs/Recettes/Ingredients/ingredients_lasagnes_bolognaise.md)
+[Liste des ingrédients](../../Recettes/Ingredients/ingredients_lasagnes_bolognaise.md)
 
 ## Préparation
 
