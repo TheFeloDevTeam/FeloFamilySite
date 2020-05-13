@@ -1,4 +1,5 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
 - [Sport](/Sport/)
-- [Entraînement](README.md)
+- [Vélo](/Sport/Velo)
+- xx
