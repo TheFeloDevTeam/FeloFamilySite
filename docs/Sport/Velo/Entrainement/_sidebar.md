@@ -2,5 +2,6 @@
 - [Home](/)
 - [Sport](/Sport/)
 - [Vélo](/Sport/Velo)
-- Workout
-  - [Pédaler rond](/Sport/Velo/Entrainement/workout_pedaler_rond.md)
+    - [Entraînement](/Sport/Velo/Entrainement)
+      - Workout
+        - [Pédaler rond](/Sport/Velo/Entrainement/workout_pedaler_rond.md)
