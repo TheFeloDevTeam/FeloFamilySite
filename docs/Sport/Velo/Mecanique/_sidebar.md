@@ -1,5 +1,5 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
 - [Sport](/Sport/)
-- [Vélo](/Sport/Velo)
+- [Vélo](/Sport/Velo/)
 - xx
