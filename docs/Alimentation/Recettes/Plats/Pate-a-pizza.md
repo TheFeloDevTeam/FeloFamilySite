@@ -22,6 +22,6 @@ Cuisson 15 minutes pour une pâte moelleuse et 18 minutes pour une pâte crousti
 
 ## Références
 
-Fichier recette du Magimix
+Fichier recette du Magimix.
 
 [Marmiton](https://www.marmiton.org/recettes/recette_pizza-maison_313213.aspx)
