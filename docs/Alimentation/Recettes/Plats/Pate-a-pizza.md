@@ -1,9 +1,9 @@
 
 ## Ingrédients
 
-[Liste des ingrédients pour une pizza de 35/40 cm de diamètre](/Recettes/Ingredients/ingredients_pate_pizza.md)
+[Liste des ingrédients pour une pizza de 35/40 cm de diamètre](/Alimentation/Recettes/Ingredients/ingredients_pate_pizza.md)
 
-[Liste des ingrédients pour la garniture](/Recettes/Ingredients/ingredients_garniture_pizza.md)
+[Liste des ingrédients pour la garniture](/Alimentation/Recettes/Ingredients/ingredients_garniture_pizza.md)
 
 ## Préparation de la pâte au Magimix
 

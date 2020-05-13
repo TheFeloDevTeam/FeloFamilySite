@@ -1,2 +1,0 @@
-
-détecter la faim

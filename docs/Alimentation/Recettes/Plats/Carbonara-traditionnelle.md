@@ -1,7 +1,7 @@
 
 ## Ingrédients
 
-[Liste des ingrédients de la sauce](/Recettes/Ingredients/ingredients_carbo.md)
+[Liste des ingrédients de la sauce](/Alimentation/Recettes/Ingredients/ingredients_carbo.md)
 
 ## Préparation
 
