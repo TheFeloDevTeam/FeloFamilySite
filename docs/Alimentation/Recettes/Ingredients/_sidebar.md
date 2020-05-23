@@ -6,4 +6,5 @@
     - [Corbonara](/Alimentation/Recettes/Ingredients/ingredients_carbo.md)
     - [Lasagnes bolognaise](/Alimentation/Recettes/Ingredients/ingredients_lasagnes_bolognaise.md)
     - [Lasagnes végétariennes](/Alimentation/Recettes/Ingredients/ingredients_lasagnes_vege.md)
-    - [Pizza](/Alimentation/Recettes/Ingredients/ingredients_pate_pizza.md)
+    - [Pâte à Pizza](/Alimentation/Recettes/Ingredients/ingredients_pate_pizza.md)
+    - [Garniture Pizza](/Alimentation/Recettes/Ingredients/ingredients_garniture_pizza.md)
