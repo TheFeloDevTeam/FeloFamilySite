@@ -1,9 +1,9 @@
 
 ## Ingrédients
 
-[Filename](../../Alimentation/Recettes/Ingredients/ingredients_pate_pizza.md ':include')
+[Filename](../Ingredients/ingredients_pate_pizza.md ':include')
 
-[Filename](../../Alimentation/Recettes/Ingredients/ingredients_garniture_pizza.md ':include')
+[Filename](../Ingredients/ingredients_garniture_pizza.md ':include')
 
 ## Préparation de la pâte au Magimix
 
