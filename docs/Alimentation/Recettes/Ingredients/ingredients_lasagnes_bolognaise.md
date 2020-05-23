@@ -6,9 +6,9 @@
 
 ### Ingrédients béchamel
 
-[Filename](./Ingredients/ingredients_bechamel.md ':include')
+[Filename](./ingredients_bechamel.md ':include')
 
 
 ### Ingrédients sauce bolognaise
 
-[Filename](./Ingredients/ingredients_bolognaise.md ':include')
+[Filename](./ingredients_bolognaise.md ':include')

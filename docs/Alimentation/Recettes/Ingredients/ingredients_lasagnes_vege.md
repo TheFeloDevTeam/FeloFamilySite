@@ -14,4 +14,4 @@
 
 ### Ingrédients béchamel
 
-[Filename](../../Recettes/Ingredients/ingredients_bechamel.md ':include')
+[Filename](./ingredients_bechamel.md ':include')
