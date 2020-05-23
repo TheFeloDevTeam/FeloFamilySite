@@ -1,4 +1,4 @@
 <!-- docs/_sidebar.md -->
-- [Home](/)
 - [Recettes](/Alimentation/Recettes/)
-- [Brownie](/Alimentation/Recettes/Desserts/Brownie.md)
+  - [Desserts](/Alimentation/Recettes/Desserts/)
+    - [Brownie](/Alimentation/Recettes/Desserts/Brownie.md)

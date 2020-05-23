@@ -1,4 +1,3 @@
 <!-- docs/_sidebar.md -->
-- [Home](/)
 - [Sport](/Sport/)
-- [test](README.md)
+  - [Etirements](/Sport/Etirements/)
