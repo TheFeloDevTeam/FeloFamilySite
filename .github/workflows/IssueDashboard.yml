@@ -1,0 +1,7 @@
+- name: Issue Dashboard
+  uses: ethomson/issue-dashboard@v1.0.2
+  with:
+    # The configuration for the dashboards.
+    config: 
+    # The Personal Authentication Token to use for authentication.
+    token: # optional
