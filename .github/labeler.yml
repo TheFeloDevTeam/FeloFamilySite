@@ -2,27 +2,13 @@
 critical:
     - '(critical|urgent)'
 
-# Add/remove 'vélo' label if issue contains the words 'vélo'
+# Add/remove 'vélo' label if issue contains the following words :
 vélo:
     - '(vélo)'
-
-vélo:
     - '(velo)'
-
-vélo:
     - '(Velo)'
-
-vélo:
     - '(Vélo)'
-
-vélo:
     - '(cyclisme)'
-
-vélo:
     - '(Cyclisme)'
-
-vélo:
     - '(pédale)'
-
-vélo:
     - '(pédalage)'
