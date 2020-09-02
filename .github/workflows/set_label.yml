@@ -1,7 +1,7 @@
 name: "Set Issue Label"
 on:
   issues:
-    types: [created, opened, edited]
+    types: [created, opened, edited, labeled, unlabeled, closed]
 
 jobs:
   test:
