@@ -12,3 +12,13 @@ jobs:
           keywords: '["vélo", "pédale"]'
           labels: '["vélo"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["cap", "course à pied", "running"]'
+          labels: '["cap"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["gel", "isotonique", "glucide"]'
+          labels: '["nutrition"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
