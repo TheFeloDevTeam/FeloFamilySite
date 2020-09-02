@@ -1,0 +1,14 @@
+name: "Set Issue Label"
+on:
+  issues_comment:
+    types: [created, opened, edited]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["vélo", "pédale"]'
+          labels: '["vélo"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
