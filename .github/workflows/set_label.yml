@@ -62,3 +62,18 @@ jobs:
           keywords: '["squat"]'
           labels: '["squats", "ppg", "sport"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["anatomie", "bras", "jambe", "muscle"]'
+          labels: '["anatomie"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["genoux", "épaule", "hanche", "bassin"]'
+          labels: '["articulation"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["assouplissement"]'
+          labels: '["assouplissement articulations"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
