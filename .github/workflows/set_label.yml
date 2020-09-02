@@ -2,6 +2,8 @@ name: "Set Issue Label"
 on:
   issues:
     types: [created, opened, edited, labeled, unlabeled, closed]
+  issue_comment:
+    types: [created, edited, deleted]
 
 jobs:
   test:
