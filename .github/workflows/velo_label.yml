@@ -9,8 +9,8 @@ jobs:
     steps:
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["vélo", "pédale"]'
-          labels: '["vélo"]'
+          keywords: '["vélo", "velo", "cycling", "cycliste", "pédale"]'
+          labels: '["vélo","sport"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
@@ -36,4 +36,24 @@ jobs:
         with:
           keywords: '["sortie longue"]'
           labels: '["sortie longue"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["architecture", "architecte"]'
+          labels: '["architecture"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["côte", "dénivelé"]'
+          labels: '["côte"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["crawl"]'
+          labels: '["crawl"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["squat"]'
+          labels: '["squats", "ppg"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
