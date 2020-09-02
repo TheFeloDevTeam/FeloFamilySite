@@ -4,11 +4,4 @@ critical:
 
 # Add/remove 'vélo' label if issue contains the following words :
 vélo:
-    - '(vélo)'
-    - '(velo)'
-    - '(Velo)'
-    - '(Vélo)'
-    - '(cyclisme)'
-    - '(Cyclisme)'
     - '(pédale)'
-    - '(pédalage)'
