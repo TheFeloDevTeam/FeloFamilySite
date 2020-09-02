@@ -22,3 +22,8 @@ jobs:
           keywords: '["gel", "isotonique", "glucide", "électrolyte"]'
           labels: '["nutrition"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["big data", "data lake", "hadoop", "map reduce", "dataware"]'
+          labels: '["big data / data lake"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
