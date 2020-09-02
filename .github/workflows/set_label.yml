@@ -71,7 +71,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["genoux", "épaule", "hanche", "bassin"]'
+          keywords: '["genoux", "épaule", "hanche", "bassin", "sacro-iliaque", "coxo-fémorale"]'
           labels: '["articulation"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
@@ -81,6 +81,6 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["douleur", "blessure", "pathologie", "douleurs", "blessures", "pathologies"]'
+          keywords: '["douleur", "blessure", "pathologie", "douleurs", "blessures", "pathologies", "syndrome"]'
           labels: '["pathologie"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
