@@ -81,6 +81,6 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["douleur", "blessure"]'
-          labels: '["douleur"]'
+          keywords: '["douleur", "blessure", "pathologie", "douleurs", "blessures", "pathologies"]'
+          labels: '["pathologie"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
