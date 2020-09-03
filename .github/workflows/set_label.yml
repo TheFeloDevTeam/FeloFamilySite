@@ -9,6 +9,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+########
+# SPORT
+########
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["vélo", "velo", "cycling", "cycliste", "pédale"]'
@@ -71,14 +74,20 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["douleur", "blessure", "pathologie", "douleurs", "blessures", "pathologies", "syndrome"]'
-          labels: '["pathologie"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
           keywords: '["puissance"]'
           labels: '["puissance"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+########
+# blessure
+########
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["douleur", "blessure", "pathologie", "douleurs", "blessures", "pathologies", "syndrome"]'
+          labels: '["pathologie"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+########
+# métabolisme
+########
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["métabolisme"]'
@@ -99,6 +108,9 @@ jobs:
           keywords: '["indice glycémique"]'
           labels: '["indice glycémique", "nutrition"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+########
+# autres
+########
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["entretenir", "nettoyage", "nettoyer"]'
