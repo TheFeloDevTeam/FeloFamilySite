@@ -46,7 +46,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["architecture", "architecte", "rest", "REST"]'
+          keywords: '["architecture", "architecte", "rest", "REST", "iam", "IAM"]'
           labels: '["architecture"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
