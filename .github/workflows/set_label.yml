@@ -77,6 +77,11 @@ jobs:
           keywords: '["puissance"]'
           labels: '["puissance"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["matériel", "équipement"]'
+          labels: '["matériel"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
 ########
 # blessure
 ########
