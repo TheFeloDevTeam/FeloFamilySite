@@ -127,7 +127,7 @@ jobs:
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["oauth", "token"]'
-          labels: '["oauth"]'
+          labels: '["oauth", "architecture"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
