@@ -21,6 +21,11 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
+          keywords: '["foulée"]'
+          labels: '["cap","foulée"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
           keywords: '["sortie longue", "sorties longues"]'
           labels: '["sortie longue"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
