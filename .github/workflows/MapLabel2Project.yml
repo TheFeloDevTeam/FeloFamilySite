@@ -53,3 +53,10 @@ jobs:
         column-name: "To do"
         label-name: "architecture"
         columns-to-ignore: "Done"
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/21"
+        column-name: "To do"
+        label-name: "nutrition"
+        columns-to-ignore: "Done"
