@@ -74,7 +74,7 @@ jobs:
           keywords: '["douleur", "blessure", "pathologie", "douleurs", "blessures", "pathologies", "syndrome"]'
           labels: '["pathologie"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-     - uses: Naturalclar/issue-action@v1.0.0
+      - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["puissance"]'
           labels: '["puissance"]'
@@ -84,7 +84,7 @@ jobs:
           keywords: '["métabolisme"]'
           labels: '["métabolisme"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-       - uses: Naturalclar/issue-action@v1.0.0
+      - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["hydratation"]'
           labels: '["hydratation"]'
@@ -94,7 +94,7 @@ jobs:
           keywords: '["gel", "isotonique", "glucide", "électrolyte"]'
           labels: '["nutrition"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-     - uses: Naturalclar/issue-action@v1.0.0
+      - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["indice glycémique"]'
           labels: '["indice glycémique", "nutrition"]'
