@@ -1,0 +1,17 @@
+on:
+  issues:
+    types: [created, opened, edited, labeled, closed]
+  issue_comment:
+    types: [created, edited, deleted]
+
+jobs:
+  Move_Labeled_Issue_On_Project_Board:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/20"
+        column-name: "To do"
+        label-name: "vélo"
+        columns-to-ignore: "Done"
