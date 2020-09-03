@@ -100,7 +100,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["gel", "isotonique", "glucide", "électrolyte"]'
+          keywords: '["gel", "isotonique", "glucide", "électrolyte", "alimentation"]'
           labels: '["nutrition"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
