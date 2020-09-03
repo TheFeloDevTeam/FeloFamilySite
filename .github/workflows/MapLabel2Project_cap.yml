@@ -11,7 +11,7 @@ jobs:
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
-        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/18"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/19"
         column-name: "To do"
         label-name: "cap"
         columns-to-ignore: "Done"
