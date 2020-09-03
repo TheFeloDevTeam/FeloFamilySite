@@ -1,0 +1,15 @@
+on:
+  issues:
+    types: [closed]
+
+jobs:
+  Move_Labeled_Issue_On_Project_Board:
+    runs-on: ubuntu-latest
+    steps:
+# GITHUB project
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/16"
+        column-name: "Done"
+        label-name: "github"
