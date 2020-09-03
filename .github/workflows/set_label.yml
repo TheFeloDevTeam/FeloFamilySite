@@ -126,6 +126,11 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
+          keywords: '["oauth"]'
+          labels: '["oauth"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
           keywords: '["ventoux", "aix-en-provence", "sainte-victoire"]'
           labels: '["vacances"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
