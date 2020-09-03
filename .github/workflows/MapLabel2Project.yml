@@ -8,6 +8,7 @@ jobs:
   Move_Labeled_Issue_On_Project_Board:
     runs-on: ubuntu-latest
     steps:
+# GITHUB project
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
@@ -15,6 +16,7 @@ jobs:
         column-name: "To do"
         label-name: "github"
         columns-to-ignore: "Done"
+# Vélo project
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
@@ -22,6 +24,7 @@ jobs:
         column-name: "To do"
         label-name: "vélo"
         columns-to-ignore: "Done"
+# xxx project
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
@@ -50,5 +53,3 @@ jobs:
         column-name: "To do"
         label-name: "architecture"
         columns-to-ignore: "Done"
-
-
