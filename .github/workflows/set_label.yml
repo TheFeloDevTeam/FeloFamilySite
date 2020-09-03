@@ -116,6 +116,11 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
+          keywords: '["storage"]'
+          labels: '["storage"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
           keywords: '["github"]'
           labels: '["github"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
