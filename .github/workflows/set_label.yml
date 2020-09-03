@@ -96,7 +96,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
      - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["induce glycémique"]'
+          keywords: '["indice glycémique"]'
           labels: '["indice glycémique", "nutrition"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
