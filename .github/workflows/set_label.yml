@@ -21,33 +21,8 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["gel", "isotonique", "glucide", "électrolyte"]'
-          labels: '["nutrition"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["big data", "data lake", "datalake", "hadoop", "map reduce", "data ware", "dataware", "bi"]'
-          labels: '["big data / data lake"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["github"]'
-          labels: '["github"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["actions", "action"]'
-          labels: '["actions"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
           keywords: '["sortie longue", "sorties longues"]'
           labels: '["sortie longue"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["architecture", "architecte", "rest", "REST", "iam", "IAM"]'
-          labels: '["architecture"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
@@ -86,9 +61,29 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
+          keywords: '["métabolisme"]'
+          labels: '["métabolisme"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["hydratation"]'
+          labels: '["hydratation"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["gel", "isotonique", "glucide", "électrolyte"]'
+          labels: '["nutrition"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
           keywords: '["entretenir", "nettoyage", "nettoyer"]'
           labels: '["entretien"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["architecture", "architecte", "rest", "REST", "iam", "IAM"]'
+          labels: '["architecture"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"      
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["rest", "post", "hook", "webhook"]'
@@ -98,4 +93,19 @@ jobs:
         with:
           keywords: '["JavaScript"]'
           labels: '["JavaScript"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["big data", "data lake", "datalake", "hadoop", "map reduce", "data ware", "dataware", "bi"]'
+          labels: '["big data / data lake"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["github"]'
+          labels: '["github"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["actions", "action"]'
+          labels: '["actions"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
