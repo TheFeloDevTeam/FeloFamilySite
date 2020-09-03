@@ -41,6 +41,11 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
+          keywords: '["dos"]'
+          labels: '["dos"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
           keywords: '["anatomie", "bras", "jambe", "muscle"]'
           labels: '["anatomie"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
@@ -63,6 +68,11 @@ jobs:
         with:
           keywords: '["métabolisme"]'
           labels: '["métabolisme"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["puissance"]'
+          labels: '["puissance"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
@@ -108,4 +118,9 @@ jobs:
         with:
           keywords: '["actions", "action"]'
           labels: '["actions"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["ventoux", "aix-en-provence", "sainte-victoire"]'
+          labels: '["vacances"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
