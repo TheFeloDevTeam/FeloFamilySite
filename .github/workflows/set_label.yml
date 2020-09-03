@@ -16,6 +16,11 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
+          keywords: '["technique de pédalage"]'
+          labels: '["technique de pédalage"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
           keywords: '["cap", "course à pied", "running"]'
           labels: '["cap","sport"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
