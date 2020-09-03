@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
-        action-token: "${{ secrets.MY_TOKEN }}"
+        action-token: "${{ secrets.GITHUB_TOKEN }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/15"
         column-name: "To do"
         label-name: "epic"
