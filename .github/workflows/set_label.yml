@@ -133,7 +133,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["big data", "data lake", "datalake", "hadoop", "map reduce", "data ware", "dataware", "bi"]'
+          keywords: '["big data", "data lake", "datalake", "hadoop", "map reduce", "data ware", "dataware"]'
           labels: '["big data / data lake"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
