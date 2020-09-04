@@ -91,7 +91,7 @@ jobs:
           labels: '["pathologie"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 ########
-# métabolisme
+# métabolisme et nutrition
 ########
       - uses: Naturalclar/issue-action@v1.0.0
         with:
@@ -105,7 +105,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["gel", "isotonique", "glucide", "électrolyte", "alimentation"]'
+          keywords: '["gel", "isotonique", "glucide", "électrolyte", "alimentation", "calorique", "fruit", "barre"]'
           labels: '["nutrition"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
