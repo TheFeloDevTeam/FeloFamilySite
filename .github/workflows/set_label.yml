@@ -159,7 +159,7 @@ jobs:
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["oauth", "token"]'
-          labels: '["oauth", "architecture"]'
+          labels: '["sécurité", "architecture"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
