@@ -166,3 +166,8 @@ jobs:
           keywords: '["ventoux", "aix-en-provence", "sainte-victoire"]'
           labels: '["vacances"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["liste", "list"]'
+          labels: '["liste"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
