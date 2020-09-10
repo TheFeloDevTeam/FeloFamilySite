@@ -49,7 +49,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
      - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["ppg"]'
+          keywords: '["ppg", "pliométrie"]'
           labels: '["ppg", "sport"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
