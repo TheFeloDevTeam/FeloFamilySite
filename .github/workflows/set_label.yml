@@ -47,6 +47,11 @@ jobs:
           keywords: '["crawl"]'
           labels: '["crawl", "natation", "sport"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+     - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["ppg"]'
+          labels: '["ppg", "sport"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["squat"]'
