@@ -87,6 +87,11 @@ jobs:
           keywords: '["matériel", "équipement"]'
           labels: '["matériel"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["workout", "entrainment"]'
+          labels: '["entrainment"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
 ########
 # blessure
 ########
