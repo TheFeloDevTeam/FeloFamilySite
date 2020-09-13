@@ -136,6 +136,11 @@ jobs:
           keywords: '["ventoux", "aix-en-provence", "sainte-victoire"]'
           labels: '["vacances"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["banque", "bancaire"]'
+          labels: '["banque"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
 ########
 # archi
 ########
@@ -189,7 +194,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["banque", "bancaire"]'
-          labels: '["banque"]'
+          keywords: '["office 365", "SharePoint", "OneNote", "OneDrive"]'
+          labels: '["office365"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
