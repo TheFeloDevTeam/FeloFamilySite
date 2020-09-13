@@ -133,6 +133,14 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
+          keywords: '["ventoux", "aix-en-provence", "sainte-victoire"]'
+          labels: '["vacances"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+########
+# archi
+########
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
           keywords: '["architecture", "architecte", "rest", "REST", "iam", "IAM"]'
           labels: '["architecture"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"      
@@ -171,11 +179,9 @@ jobs:
           keywords: '["oauth", "token", "Saml"]'
           labels: '["sécurité", "architecture"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["ventoux", "aix-en-provence", "sainte-victoire"]'
-          labels: '["vacances"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
+########
+# workspace
+########
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["liste", "list"]'
