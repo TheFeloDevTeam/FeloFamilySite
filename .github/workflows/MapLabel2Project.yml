@@ -8,7 +8,9 @@ jobs:
   Move_Labeled_Issue_On_Project_Board:
     runs-on: ubuntu-latest
     steps:
-# GITHUB project
+##########
+# Dev
+##########
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
@@ -16,28 +18,22 @@ jobs:
         column-name: "To do"
         label-name: "github"
         columns-to-ignore: "Done"
-# Vélo project
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/24"
+        column-name: "To do"
+        label-name: "dev"
+        columns-to-ignore: "Done"
+##########
+# Sport, nutrition, santé
+##########
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/20"
         column-name: "To do"
         label-name: "vélo"
-        columns-to-ignore: "Done"
-# xxx project
-    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
-      with:
-        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
-        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/15"
-        column-name: "To do"
-        label-name: "epic"
-        columns-to-ignore: "Done"
-    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
-      with:
-        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
-        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/14"
-        column-name: "To do"
-        label-name: "définition"
         columns-to-ignore: "Done"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
@@ -49,13 +45,6 @@ jobs:
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
-        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/18"
-        column-name: "To do"
-        label-name: "architecture"
-        columns-to-ignore: "Done"
-    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
-      with:
-        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/21"
         column-name: "To do"
         label-name: "nutrition"
@@ -63,9 +52,26 @@ jobs:
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/23"
+        column-name: "To do"
+        label-name: "ppg"
+        columns-to-ignore: "Done"
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/13"
         column-name: "To do"
         label-name: "recette"
+        columns-to-ignore: "Done"
+##########
+# SI
+##########
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/18"
+        column-name: "To do"
+        label-name: "architecture"
         columns-to-ignore: "Done"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
@@ -81,10 +87,20 @@ jobs:
         column-name: "To do"
         label-name: "office365"
         columns-to-ignore: "Done"
+##########
+# Autres
+##########
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
-        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/23"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/15"
         column-name: "To do"
-        label-name: "ppg"
+        label-name: "epic"
+        columns-to-ignore: "Done"
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/14"
+        column-name: "To do"
+        label-name: "définition"
         columns-to-ignore: "Done"
