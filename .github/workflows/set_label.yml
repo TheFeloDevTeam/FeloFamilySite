@@ -202,4 +202,8 @@ jobs:
           keywords: '["office 365", "SharePoint", "OneNote", "OneDrive", "outlook", "Microsoft flow", "flow.microsoft"]'
           labels: '["office365"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["SharePoint", "sharepoint"]'
+          labels: '["SharePoint"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
