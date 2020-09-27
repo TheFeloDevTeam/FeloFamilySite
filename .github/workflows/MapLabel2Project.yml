@@ -49,6 +49,13 @@ jobs:
         column-name: "To do"
         label-name: "ppg"
         columns-to-ignore: "Done"
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/25"
+        column-name: "To do"
+        label-name: "assouplissement"
+        columns-to-ignore: "Done"
 ##########
 # nutrition
 ##########
