@@ -133,6 +133,11 @@ jobs:
 ########
       - uses: Naturalclar/issue-action@v1.0.0
         with:
+          keywords: '["maison"]'
+          labels: '["maison"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
           keywords: '["entretenir", "nettoyage", "nettoyer"]'
           labels: '["entretien"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
