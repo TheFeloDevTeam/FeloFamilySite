@@ -111,6 +111,13 @@ jobs:
         column-name: "To do"
         label-name: "agilité"
         columns-to-ignore: "Done"
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/27"
+        column-name: "To do"
+        label-name: "ux design"
+        columns-to-ignore: "Done"
 ##########
 # Autres
 ##########
