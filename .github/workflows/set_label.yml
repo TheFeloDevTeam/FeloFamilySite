@@ -151,6 +151,11 @@ jobs:
           keywords: '["banque", "bancaire"]'
           labels: '["banque"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["gestion", "management", "manager"]'
+          labels: '["manager"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
 ########
 # archi
 ########
