@@ -2,7 +2,7 @@
 name: Démonstration probante
 about: décrire explicitement une expérience
 title: ''
-labels: ''
+labels: démonstration probante
 assignees: ''
 
 ---
