@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-## Pour qui ?
+## Qui ?
 
 ### L'entreprise
 
@@ -15,9 +15,7 @@ assignees: ''
 
 ### Ma mission, mon rôle
 
-### Contexte de l'entreprise, de l'organisation, de l'équipe
-
-## Pour quoi ?
+## Quoi ?
 
 ### Quels étaient les enjeux de cette mission/de ce rôle ?	
 
@@ -27,7 +25,17 @@ assignees: ''
 
 ### Quels risques ?
 
-## Comment ?
+## Où ? Contexte de l'entreprise, de l'organisation, de l'équipe ?
+
+## Quand ?
+
+## Comment ? Quelles sont les compétences que démontre ces réalisations/résultats ?	
+
+### Savoir-faire appliqué/développé
+
+### Savoir appliqué/développé
+
+### Savoir-être appliqué/développé
 
 ### Quels principes ai-je eu à prendre en compte et comment je les ai gérés ?	
 
@@ -35,17 +43,9 @@ assignees: ''
 
 ### Quels problèmes ai-je rencontrés et comment je les ai gérés ?	
 
-## Quels résultats/réalisations ai-je obtenus/produits:	
+## Pour quels résultats/réalisations obtenus/produits ?	
 
-### Résultats quantitatifs
+### Pour quels résultats quantitatifs ?
 
-### Résultats qualitatifs
-
-## Quelles sont les compétences que démontre ces réalisations/résultats ?	
-
-#### Savoir-faire appliqué/développé
-
-#### Savoir appliqué/développé
-
-#### Savoir-être appliqué/développé
+### Pour quels Résultats qualitatifs ?
 
