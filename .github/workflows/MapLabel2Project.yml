@@ -170,3 +170,11 @@ jobs:
         column-name: "To do"
         label-name: "démarche"
         columns-to-ignore: "Done"
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/31"
+        column-name: "To do"
+        label-name: "démonstration probante"
+        columns-to-ignore: "Done"
+
