@@ -1,13 +1,11 @@
 ---
-name: Démonstration probante
+name: Démonstration probante de l'expérience XXXX
 about: décrire explicitement une expérience
 title: ''
 labels: démonstration probante
 assignees: ''
 
 ---
-
-Démonstration Probante en 9 points
 
 ## Pour qui ?
 
