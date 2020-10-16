@@ -13,9 +13,9 @@ assignees: ''
 
 ### Mon poste
 
-### Ma mission, mon rôle
-
 ## Quoi ?
+
+### Ma mission, mon rôle
 
 ### Quels étaient les enjeux de cette mission/de ce rôle ?	
 
@@ -25,11 +25,14 @@ assignees: ''
 
 ### Quels risques ?
 
-## Où ? Contexte de l'entreprise, de l'organisation, de l'équipe ?
+## Où ? L'organisation ? L'équipe ?
 
-## Quand ?
 
-## Comment ? Quelles sont les compétences que démontre ces réalisations/résultats ?	
+## Quand ? Délais ? Période ? Contexte de l'entreprise, de l'organisation, de l'équipe ?
+
+
+## Comment ? Quelles compétences nécessaires ?	
+
 
 ### Savoir-faire appliqué/développé
 
