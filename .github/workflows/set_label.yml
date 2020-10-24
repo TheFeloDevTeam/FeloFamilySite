@@ -15,7 +15,7 @@ jobs:
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["vélo", "velo", "cycling", "cycliste", "pédale"]'
-          labels: '["vélo","sport"]'
+          labels: '["vélo"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
@@ -30,7 +30,7 @@ jobs:
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["cap", "course à pied", "running"]'
-          labels: '["cap","sport"]'
+          labels: '["cap"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
