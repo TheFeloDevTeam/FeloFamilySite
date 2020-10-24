@@ -158,7 +158,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["youtube"]'
+          keywords: '["youtube.com", "youtu.be"]'
           labels: '["vidéo"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 ########
