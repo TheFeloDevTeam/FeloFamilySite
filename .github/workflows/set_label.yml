@@ -156,6 +156,11 @@ jobs:
           keywords: '["gestion", "management", "manager"]'
           labels: '["manager"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["youtube"]'
+          labels: '["vidéo"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
 ########
 # archi
 ########
