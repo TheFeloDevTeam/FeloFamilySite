@@ -186,6 +186,11 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
+          keywords: '["big data", "big data"]'
+          labels: '["big data"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
           keywords: '["storage"]'
           labels: '["storage"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
