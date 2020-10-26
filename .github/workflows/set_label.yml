@@ -214,6 +214,11 @@ jobs:
           keywords: '["agilité", "user story", "storyboard", "experience map", "blueprint", "epic", "scrum"]'
           labels: '["agilité"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["database", "base de données"]'
+          labels: '["database"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
 ########
 # workspace
 ########
