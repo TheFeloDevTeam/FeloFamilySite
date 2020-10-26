@@ -17,14 +17,14 @@ jobs:
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/7"
         column-name: "To do"
         label-name: "github"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/7"
         column-name: "To do"
         label-name: "dev"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
 ##########
 # Sport, nutrition, santé
 ##########
@@ -34,35 +34,35 @@ jobs:
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/20"
         column-name: "To do"
         label-name: "vélo"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/19"
         column-name: "To do"
         label-name: "cap"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/23"
         column-name: "To do"
         label-name: "ppg"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/25"
         column-name: "To do"
         label-name: "assouplissement"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/25"
         column-name: "To do"
         label-name: "yoga"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
 ##########
 # nutrition
 ##########
@@ -72,14 +72,14 @@ jobs:
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/21"
         column-name: "To do"
         label-name: "nutrition"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/13"
         column-name: "To do"
         label-name: "recette"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
 ##########
 # SI
 ##########
@@ -89,35 +89,35 @@ jobs:
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/18"
         column-name: "To do"
         label-name: "architecture"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/22"
         column-name: "To do"
         label-name: "SharePoint"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/22"
         column-name: "To do"
         label-name: "office365"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/27"
         column-name: "To do"
         label-name: "agilité"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/27"
         column-name: "To do"
         label-name: "ux design"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
 ##########
 # Autres
 ##########
@@ -127,74 +127,74 @@ jobs:
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/15"
         column-name: "To do"
         label-name: "epic"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/14"
         column-name: "To do"
         label-name: "définition"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/26"
         column-name: "To do"
         label-name: "maison"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/28"
         column-name: "To do"
         label-name: "orthographe"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/29"
         column-name: "To do"
         label-name: "banque"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/30"
         column-name: "To do"
         label-name: "manager"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/30"
         column-name: "To do"
         label-name: "démarche"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/31"
         column-name: "To do"
         label-name: "démonstration probante"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/33"
         column-name: "To do"
         label-name: "vidéo"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/34"
         column-name: "To do"
         label-name: "sport"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/35"
         column-name: "To do"
         label-name: "anatomie"
-        columns-to-ignore: "Done"
+        columns-to-ignore: "*"
