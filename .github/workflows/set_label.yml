@@ -226,7 +226,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["apache"]'
+          keywords: '["apache", "hadoop"]'
           labels: '["apache"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 ########
