@@ -219,6 +219,11 @@ jobs:
           keywords: '["database", "base de données"]'
           labels: '["database"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["object storage"]'
+          labels: '["object storage"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
 ########
 # workspace
 ########
