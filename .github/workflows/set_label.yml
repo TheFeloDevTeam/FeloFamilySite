@@ -191,7 +191,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["storage"]'
+          keywords: '["storage", "nas", "san", "block storage", "stockage"]'
           labels: '["storage"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
