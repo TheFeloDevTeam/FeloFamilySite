@@ -14,31 +14,6 @@ jobs:
 ########
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["vélo", "velo", "cycling", "cycliste", "pédale"]'
-          labels: '["vélo"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["home trainer"]'
-          labels: '["vélo","HT", "matériel"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["pédalage", "danseuse"]'
-          labels: '["technique de pédalage", "vélo"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["cap", "course à pied", "running"]'
-          labels: '["cap"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["foulée"]'
-          labels: '["cap","foulée"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
           keywords: '["sortie longue", "sorties longues"]'
           labels: '["sortie longue"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
@@ -51,31 +26,6 @@ jobs:
         with:
           keywords: '["crawl"]'
           labels: '["crawl", "natation", "sport"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["ppg", "pliométrie", "jump"]'
-          labels: '["ppg", "sport"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["squat", "fentes"]'
-          labels: '["squats", "ppg", "sport"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["dos"]'
-          labels: '["dos"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["anatomie", "bras", "jambe", "muscle"]'
-          labels: '["anatomie"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["genoux", "épaule", "hanche", "bassin", "sacro-iliaque", "coxo-fémorale"]'
-          labels: '["articulation"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
@@ -96,6 +46,68 @@ jobs:
         with:
           keywords: '["workout", "entraînement", "fractionné","ppg"]'
           labels: '["entraînement"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+########
+# PPG
+########
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["ppg", "pliométrie", "jump"]'
+          labels: '["ppg", "sport"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["squat", "fentes"]'
+          labels: '["squats", "ppg", "sport"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+########
+# Vélo
+########
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["vélo", "velo", "cycling", "cycliste", "pédale"]'
+          labels: '["vélo"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["home trainer"]'
+          labels: '["vélo","HT", "matériel"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["pédalage", "danseuse"]'
+          labels: '["technique de pédalage", "vélo"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+########
+# CAP
+########
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["cap", "course à pied", "running"]'
+          labels: '["cap"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["foulée"]'
+          labels: '["cap","foulée"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+########
+# anatomie
+########
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["anatomie", "bras", "jambe", "muscle"]'
+          labels: '["anatomie"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["genoux", "épaule", "hanche", "bassin", "sacro-iliaque", "coxo-fémorale"]'
+          labels: '["articulation"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["dos"]'
+          labels: '["dos"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 ########
 # blessure
