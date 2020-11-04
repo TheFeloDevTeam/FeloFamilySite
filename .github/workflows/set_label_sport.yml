@@ -63,21 +63,21 @@ jobs:
 ########
 # Vélo
 ########
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["vélo", "velo", "cycling", "cycliste", "pédale"]'
-          labels: '["vélo"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["home trainer"]'
-          labels: '["vélo","HT", "matériel"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["pédalage", "danseuse"]'
-          labels: '["technique de pédalage", "vélo"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
+#      - uses: Naturalclar/issue-action@v1.0.0
+#        with:
+#          keywords: '["vélo", "velo", "cycling", "cycliste", "pédale"]'
+#          labels: '["vélo"]'
+#          github-token: "${{ secrets.GITHUB_TOKEN }}"
+#      - uses: Naturalclar/issue-action@v1.0.0
+#        with:
+#          keywords: '["home trainer"]'
+#          labels: '["vélo","HT", "matériel"]'
+#          github-token: "${{ secrets.GITHUB_TOKEN }}"
+#      - uses: Naturalclar/issue-action@v1.0.0
+#        with:
+#          keywords: '["pédalage", "danseuse"]'
+#          labels: '["technique de pédalage", "vélo"]'
+#          github-token: "${{ secrets.GITHUB_TOKEN }}"
 ########
 # CAP
 ########
