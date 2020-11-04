@@ -1,4 +1,4 @@
-name: "Set Issue Label"
+name: "Set Issue Label archi"
 on:
   issues:
     types: [created, opened, edited, labeled, unlabeled, closed]
