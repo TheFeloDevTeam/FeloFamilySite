@@ -14,7 +14,7 @@ jobs:
 ########
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["architecture", "architecte", "rest", "REST", "iam", "IAM"]'
+          keywords: '["architecture", "architecte", "rest", "REST"]'
           labels: '["architecture"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"      
       - uses: Naturalclar/issue-action@v1.0.0
@@ -44,8 +44,8 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["oauth", "token", "Saml"]'
-          labels: '["sécurité", "architecture"]'
+          keywords: '["oauth", "token", "Saml", "iam", "IAM"]'
+          labels: '["sécurité"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
