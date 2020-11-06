@@ -86,6 +86,13 @@ jobs:
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/38"
+        column-name: "To do"
+        label-name: "sécurité"
+        columns-to-ignore: "*"
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
         project-url: "https://github.com/orgs/TheFeloDevTeam/projects/18"
         column-name: "To do"
         label-name: "architecture"
