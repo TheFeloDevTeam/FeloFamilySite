@@ -30,17 +30,17 @@ jobs:
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["data lake", "datalake", "hadoop", "map reduce", "data ware", "dataware", "spark", "graphx"]'
-          labels: '["data lake"]'
+          labels: '["data lake","architecture data"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["big data", "big data"]'
-          labels: '["big data"]'
+          labels: '["big data","architecture data"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["storage", "nas", "san", "block storage", "stockage"]'
-          labels: '["storage"]'
+          labels: '["storage","architecture data"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
@@ -55,12 +55,12 @@ jobs:
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["database", "base de données"]'
-          labels: '["database"]'
+          labels: '["database","architecture data"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["object storage"]'
-          labels: '["object storage"]'
+          labels: '["object storage","architecture data"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
