@@ -131,3 +131,11 @@ jobs:
           keywords: '["SharePoint", "sharepoint"]'
           labels: '["SharePoint"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+########
+# autres
+########
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["qu''est-ce que"]'
+          labels: '["définition"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
