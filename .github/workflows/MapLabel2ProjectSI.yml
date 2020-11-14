@@ -9,68 +9,78 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 ##########
-# Autres
+# Dev
 ##########
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
-        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/15"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/7"
         column-name: "To do"
-        label-name: "epic"
+        label-name: "github"
         columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
-        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/14"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/7"
         column-name: "To do"
-        label-name: "définition"
+        label-name: "dev"
+        columns-to-ignore: "*"
+##########
+# SI
+##########
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.LABEL_TO_PROJECT }}"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/38"
+        column-name: "To do"
+        label-name: "sécurité"
         columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
-        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/26"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/18"
         column-name: "To do"
-        label-name: "maison"
+        label-name: "architecture"
         columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
-        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/28"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/39"
         column-name: "To do"
-        label-name: "orthographe"
+        label-name: "architecture data"
         columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
-        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/29"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/22"
         column-name: "To do"
-        label-name: "banque"
+        label-name: "SharePoint"
         columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
-        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/30"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/22"
         column-name: "To do"
-        label-name: "manager"
+        label-name: "office365"
         columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
-        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/30"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/27"
         column-name: "To do"
-        label-name: "démarche"
+        label-name: "agilité"
         columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
-        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/31"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/27"
         column-name: "To do"
-        label-name: "démonstration probante"
+        label-name: "ux design"
         columns-to-ignore: "*"
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.LABEL_TO_PROJECT }}"
-        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/33"
+        project-url: "https://github.com/orgs/TheFeloDevTeam/projects/18"
         column-name: "To do"
-        label-name: "vidéo"
+        label-name: "object storage"
         columns-to-ignore: "*"
