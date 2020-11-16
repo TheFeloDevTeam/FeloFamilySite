@@ -39,7 +39,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["storage", "nas", "san", "block storage"]'
+          keywords: '["storage", "network access storage", "block storage"]'
           labels: '["storage","architecture data"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
