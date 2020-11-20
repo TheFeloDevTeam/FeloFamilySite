@@ -91,3 +91,52 @@ jobs:
           keywords: '["foulée"]'
           labels: '["cap","foulée"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+########
+# anatomie
+########
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["anatomie", "bras", "jambe", "muscle"]'
+          labels: '["anatomie"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["genoux", "épaule", "hanche", "bassin", "sacro-iliaque", "coxo-fémorale"]'
+          labels: '["articulation"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["dos"]'
+          labels: '["dos"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+########
+# blessure
+########
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["douleur", "blessure", "pathologie", "douleurs", "blessures", "pathologies", "syndrome"]'
+          labels: '["pathologie"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+########
+# métabolisme et nutrition
+########
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["métabolisme"]'
+          labels: '["métabolisme"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["hydratation"]'
+          labels: '["hydratation"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["gel", "isotonique", "glucide", "électrolyte", "alimentation", "calorique", "fruit", "barre"]'
+          labels: '["nutrition"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["indice glycémique"]'
+          labels: '["indice glycémique", "nutrition"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
