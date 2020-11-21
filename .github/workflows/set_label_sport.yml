@@ -53,12 +53,12 @@ jobs:
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["ppg", "pliométrie", "jump"]'
-          labels: '["ppg", "sport"]'
+          labels: '["ppg"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["squat", "fentes"]'
-          labels: '["squats", "ppg", "sport"]'
+          labels: '["squats", "ppg"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 ########
 # Vélo
