@@ -16,12 +16,7 @@ jobs:
         with:
           keywords: '["architecture", "architecte"]'
           labels: '["architecture"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"      
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["rest", "post", "hook", "webhook"]'
-          labels: '["api"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
+          github-token: "${{ secrets.GITHUB_TOKEN }}"  
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["JavaScript"]'
