@@ -29,11 +29,6 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["assouplissement"]'
-          labels: '["assouplissement articulations"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
           keywords: '["puissance"]'
           labels: '["puissance"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
@@ -94,6 +89,21 @@ jobs:
 ########
 # anatomie
 ########
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["assouplissement"]'
+          labels: '["assouplissement articulations"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["hanche"]'
+          labels: '["hanche"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["bassin"]'
+          labels: '["bassin"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["anatomie", "bras", "jambe", "muscle"]'
