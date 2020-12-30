@@ -43,6 +43,19 @@ jobs:
           labels: '["entraînement"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 ########
+# assouplissements et étirements
+########
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["étirement", "stretching"]'
+          labels: '["étirement"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["assouplissement"]'
+          labels: '["assouplissements]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+########
 # PPG
 ########
       - uses: Naturalclar/issue-action@v1.0.0
