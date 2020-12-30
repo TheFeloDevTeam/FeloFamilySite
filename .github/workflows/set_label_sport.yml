@@ -111,7 +111,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["anatomie", "bras", "jambe", "muscle"]'
+          keywords: '["anatomie", "jambe", "muscle"]'
           labels: '["anatomie"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
